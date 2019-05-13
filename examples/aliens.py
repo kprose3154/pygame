@@ -62,7 +62,7 @@ def load_sound(file):
 
 
 class Player(pygame.sprite.Sprite):
-    speed = 30
+    speed = 1
     bounce = 24
     gun_offset = -11
     images = []
