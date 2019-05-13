@@ -62,7 +62,7 @@ def load_sound(file):
 
 
 class Player(pygame.sprite.Sprite):
-    speed = 10
+    speed = 30
     bounce = 24
     gun_offset = -11
     images = []
@@ -90,7 +90,7 @@ class Player(pygame.sprite.Sprite):
 
 
 class Alien(pygame.sprite.Sprite):
-    speed = 13
+    speed = 20
     animcycle = 12
     images = []
     def __init__(self):
@@ -143,7 +143,7 @@ class Shot(pygame.sprite.Sprite):
 
 
 class Bomb(pygame.sprite.Sprite):
-    speed = 9
+    speed = 13
     images = []
     def __init__(self, alien):
         pygame.sprite.Sprite.__init__(self, self.containers)
