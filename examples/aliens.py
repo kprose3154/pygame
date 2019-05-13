@@ -129,7 +129,7 @@ class Explosion(pygame.sprite.Sprite):
 
 
 class Shot(pygame.sprite.Sprite):
-    speed = -11
+    speed = 50
     images = []
     def __init__(self, pos):
         pygame.sprite.Sprite.__init__(self, self.containers)
